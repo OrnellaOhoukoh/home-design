@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/css.css">
+    <title>Details</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+        <div class="burger_menu">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <input type="checkbox">
+        <nav class="head_nav">
+            <ul>
+                <li>
+                    <a href="index.html">Acceuil</a>
+                </li>
+                <li>
+                    <a href="catalogue.html">Catalogue</a>
+                </li>
+                <li style="    background-color: rgb(139, 100, 100);
+                color: wheat;">
+                    <a href="details.html">Details</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="details-produit">
+            <div id="video">
+                <iframe class="media_video" src="http://www.youtube.com/embed/ZvzNVqpQYsw" frameborder="0"
+                    allowfullscreen></iframe>
+            </div>
+            <div id="produit">
+                <h1>Produit</h1>
+                <img src="./images/catalogue/int8.jpg" alt="Image Produit">
+            </div>
+
+            <div id="details">
+                <div class="desktop_display">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo labore vitae similique dignissimos
+                        impedit obcaecati libero, itaque, aut inventore ab unde assumenda, necessitatibus pariatur
+                        voluptas eveniet repudiandae! Cumque, aliquam nostrum.</p>
+                    <a href="./contact.html">Avis de nos experts</a>
+                    <h4><span class="stock">En stock</span></h4>
+                    <div>
+                        <label for="quantity"> Quantité: </label>
+                        <input type="number" id="quantity" name="quantity" min="1" max="100" autofocus>
+                    </div>
+                    <div class="floating">
+                        <label for="price">Filtre de prix</label>
+                        <input type="range" name="price" id="price" min="1000" max="50000" step="100" value="2500">
+                    </div>
+                    <div class="floating">
+                        <label for="color">Couleurs disponibles: </label>
+                        <input type="color" id="color" name="color">
+                    </div>
+                    <div class="product_button">
+                        <input type="submit" value="Ajouter au panier">
+                    </div>
+                    <div class="product_button">
+                        <input type="submit" value="Acheter maintenant">
+                    </div>
+                </div>
+                <div class="details_display">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero inventore in rem saepe, quaerat
+                        dolorem, ullam, quasi blanditiis vel eos at. Nemo consectetur amet possimus quae deserunt soluta
+                        tempore veritatis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, ratione
+                        earum accusantium maiores explicabo in numquam quisquam beatae minus quibusdam praesentium
+                        molestiae </p>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <nav class="foot_nav">
+            <ul>
+                <li>
+                    <a href="index.html">Acceuil</a>
+                </li>
+                <li>
+                    <a href="catalogue.html">Catalogue</a>
+                </li>
+                <li>
+                    <a href="details.html">Details</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="foot_map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5590.410463282722!2d-73.55631279716022!3d45.52607543530918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc918e0c061b07f%3A0x647a6b6d7cb681a7!2sISI%2C%20L&#39;institut%20Sup%C3%A9rieur%20d&#39;Informatique!5e0!3m2!1sen!2sca!4v1629209169277!5m2!1sen!2sca"
+                width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+        </div>
+        <div class="socials">
+            <ul>
+                <li>
+                    <a href=""><img src="images/socials/facebook.png" alt="facebook"></a>
+                </li>
+                <li>
+                    <a href=""><img src="images/socials/twitter.png" alt="twitter"></a>
+                </li>
+                <li>
+                    <a href=""><img src="images/socials/whatsapp.png" alt="whatsapp"></a>
+                </li>
+                <li>
+                    <a href=""><img src="images/socials/youtube.png" alt="youtube"></a>
+                </li>
+            </ul>
+        </div>
+        <span> rights reserved C 2021</span>
+    </footer>
+</body>
+
+</html>

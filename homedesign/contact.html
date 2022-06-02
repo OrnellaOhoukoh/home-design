@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/css.css">
+    <title>Contact</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+        <div class="burger_menu">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <input type="checkbox">
+        <nav class="head_nav">
+            <ul>
+                <li>
+                    <a href="index.html">Acceuil</a>
+                </li>
+                <li>
+                    <a href="catalogue.html">Catalogue</a>
+                </li>
+                <li>
+                    <a href="details.html">Details</a>
+                </li>
+                <li style="    background-color: rgb(139, 100, 100);
+                color: wheat;">
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main-contact">
+
+        <div>
+            <h1>Contactez-Nous</h1>
+        </div>
+        <div class="contact">
+
+            <fieldset>
+
+                <form action="contact.html" method="POST">
+
+
+                    <div>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                            nisi
+                            ut aliquip
+                            ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur.</p>
+                    </div>
+
+
+                    <div id="infos">
+                        <div>
+                            <label for="name" class="required">Nom: </label>
+                            <input type="text" id="name" name="lastName" maxlength="50" autofocus required
+                                placeholder="Saisir votre nom">
+                        </div>
+
+                        <div>
+                            <label for="firstname" class="required">Prénom: </label>
+                            <input type="text" id="firstname" name="firstname" maxlength="50" required
+                                placeholder="Saisir votre prénom">
+                        </div>
+
+                        <div>
+                            <label for="age">Age: </label>
+                            <input type="number" id="age" name="age" min="18" max="60">
+                        </div>
+
+                        <div>
+                            <label for="email" class="required">Courriel: </label>
+                            <input type="email" id="email" pattern="ahuiri@gjuei.com" size="30" required
+                                placeholder="abc-deco@yahoo.ca">
+                        </div>
+
+                        <div>
+                            <label for="province-select">Province: </label>
+                            <select name="province" id="province-select">
+                                <option value="AL">Alberta</option>
+                                <option value="BC">British Colombia</option>
+                                <option value="MAN">Manitoba</option>
+                                <option value="ON">Ontario</option>
+                                <option value="Qc">Québec</option>
+                                <option value="NB">New Brunswick</option>
+                                <option value="NFL">Newfoundland and Labrador</option>
+                                <option value="NS">Nova Scotia</option>
+                                <option value="PEI">Prince Edward Island</option>
+                                <option value="SAS">Saskatchewan</option>
+
+                            </select>
+                        </div>
+
+                        <div>
+                            <label for="town">Ville: </label>
+                            <input list="ville" id="town" name="town">
+                            <datalist id="ville">
+                                <option>Montréal</option>
+                                <option>Princeville</option>
+                                <option>Joliette</option>
+                                <option>Montérégie</option>
+                                <option>Saguenay</option>
+                            </datalist>
+
+                        </div>
+
+                    </div>
+                    <div id="profil">
+
+                        <h4>Vous-êtes: </h4>
+                        <div>
+                            <input type="radio" id="student" name="profil" value="Etudiant" checked>
+                            <label for="student">Etudiant</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="professional" name="profil" value="professionnel">
+                            <label for="professional">professionnel</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="other" name="profil" value="Autre">
+                            <label for="other">Autre</label>
+                        </div>
+
+                        <h4>Vous désirez: </h4>
+                        <div>
+                            <input type="checkbox" id="option1" name="option1" checked>
+                            <label for="option1">Commander des articles</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="option2" name="option2">
+                            <label for="option2">Un service de décoration</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="option3" name="option3">
+                            <label for="option3">Les conseils d'un professionnel</label>
+                        </div>
+
+
+
+
+                    </div>
+                </form>
+            </fieldset>
+            <div id="contact-submit">
+                <input type="submit" value="Soumettre">
+                <input type="reset" value="Réinitialiser">
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <nav class="foot_nav">
+            <ul>
+                <li>
+                    <a href="index.html">Acceuil</a>
+                </li>
+                <li>
+                    <a href="catalogue.html">Catalogue</a>
+                </li>
+                <li>
+                    <a href="details.html">Details</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="foot_map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5590.410463282722!2d-73.55631279716022!3d45.52607543530918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc918e0c061b07f%3A0x647a6b6d7cb681a7!2sISI%2C%20L&#39;institut%20Sup%C3%A9rieur%20d&#39;Informatique!5e0!3m2!1sen!2sca!4v1629209169277!5m2!1sen!2sca"
+                width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5590.410463282722!2d-73.55631279716022!3d45.52607543530918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc918e0c061b07f%3A0x647a6b6d7cb681a7!2sISI%2C%20L&#39;institut%20Sup%C3%A9rieur%20d&#39;Informatique!5e0!3m2!1sen!2sca!4v1629209169277!5m2!1sen!2sca"
+                    width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+        </div>
+        <div class="socials">
+            <ul>
+                <li>
+                    <a href=""><img src="images/socials/facebook.png" alt="facebook"></a>
+                </li>
+                <li>
+                    <a href=""><img src="images/socials/twitter.png" alt="twitter"></a>
+                </li>
+                <li>
+                    <a href=""><img src="images/socials/whatsapp.png" alt="whatsapp"></a>
+                </li>
+                <li>
+                    <a href=""><img src="images/socials/youtube.png" alt="youtube"></a>
+                </li>
+        </div>
+        <span> rights reserved C 2021</span>
+    </footer>
+</body>
+
+</html>
